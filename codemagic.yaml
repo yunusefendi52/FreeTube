@@ -9,3 +9,6 @@ workflows:
           npm install -g yarn
           yarn install
           yarn run build:arm64
+    
+    artifacts:
+      - build/FreeTube-*.zip
