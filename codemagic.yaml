@@ -1,7 +1,7 @@
 workflows:
   my-workflow:
     environment:
-      node: 16.10.0f
+      node: 16.10.0
     
     scripts:
       - name: Install and build
